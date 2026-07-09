@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "IranYekan";
+    src: url("IRANYekan.woff2") format("woff2"),
+         url("IRANYekan.woff") format("woff");
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    font-family: "IranYekan", sans-serif;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin-top: 30px;
+    margin: 30px auto;
+    box-sizing: border;
+}
+
+.video-box{
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
+
+.insta-footer {
+  text-align: center;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-family: 'IRANYekan', sans-serif;
+}
+
+.insta-footer a {
+  text-decoration: none;
+  color: #9eab5c;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.rsvp-box {
+    background: #fff7e9;
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rsvp-title {
+    font-size: 20px;
+    color: #9eab5c;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.rsvp-input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #f7e4c0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.rsvp-buttons {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+
+.yes-btn, .no-btn {
+    flex: 1;
+    padding: 12px 0;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.yes-btn {
+    background: #f7e4c0;
+    color: #6b7440;
+}
+
+.no-btn {
+    background: #f7e4c0;
+    color: #6b7440;
+}
