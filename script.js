@@ -1,9 +1,25 @@
 const video = document.getElementById("weddingVideo");
+const playBtn = document.getElementById("playBtn");
 
-document.addEventListener("click", () => {
+
+video.pause();
+
+
+playBtn.addEventListener("click", () => {
+
     video.muted = false;
     video.play();
-}, { once: true });
+
+    playBtn.style.display = "none";
+
+});
+
+
+video.addEventListener("ended", () => {
+
+    playBtn.style.display = "flex";
+
+});
 
 
 // ===============================

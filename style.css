@@ -47,6 +47,20 @@ video{
 
 }
 
+.video-container {
+    position: relative;
+    width: 100%;
+}
+
+.video-container video {
+    width: 100%;
+    display: block;
+    border-radius: 16px;
+}
+
+
+
+
 .insta-footer {
   text-align: center;
   margin-top: 40px;
