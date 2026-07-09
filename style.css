@@ -1,13 +1,10 @@
 @font-face {
-    font-family: "IranYekan";
-    src: url("IRANYekan.woff2") format("woff2"),
-         url("IRANYekan.woff") format("woff");
-    font-display: swap;
+
 }
 
 body {
     margin: 0;
-    font-family: "IranYekan", sans-serif;
+     font-family: "Vazirmatn", sans-serif;
     background: #fafafa;
     display: flex;
     justify-content: center;
@@ -17,21 +14,37 @@ body {
 }
 
 .container {
-    width: 100%;
-    max-width: 600px;
-    background: rgb(255, 255, 255);
-    padding: 20px;
+
+    width: min(92%, 600px);
+
+    background: #fff;
+
+    padding: 12px;
+
     border-radius: 20px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    margin-top: 30px;
-    margin: 30px auto;
-    box-sizing: border;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+
+    margin: 20px auto;
+
+    box-sizing: border-box;
+
 }
 
-.video-box{
+video{
     width: 100%;
     border-radius: 16px;
     margin-bottom: 15px;
+}
+
+video{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:16px;
+
 }
 
 .insta-footer {
@@ -106,4 +119,45 @@ body {
 .no-btn {
     background: #f7e4c0;
     color: #6b7440;
+}
+
+/* ================================
+          Mobile
+================================ */
+
+@media (max-width:600px){
+
+    .container{
+
+        width:96%;
+
+        padding:10px;
+
+        border-radius:16px;
+
+        margin:10px auto;
+
+    }
+
+    .rsvp-box{
+
+        padding:15px;
+
+    }
+
+    .rsvp-buttons{
+
+        gap:8px;
+
+    }
+
+    .yes-btn,
+    .no-btn{
+
+        font-size:14px;
+
+        padding:10px 8px;
+
+    }
+
 }
